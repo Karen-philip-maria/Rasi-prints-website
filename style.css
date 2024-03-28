@@ -1,21 +1,27 @@
 #footer{
     display: flex;
     gap: 2%;
-    border: 3px solid black;
+    border-radius: 3px solid black;
     background-color: black;
-    width: 700px;
+    width: 710px;
     color: white;
 }
 #head{
     text-align: center;
     background-color: green;
     color: white;
+    width: 710px;
+}
+#ends{
+ background-color: black;
+ color: white;
 }
 #header{
     display: flex;
     gap: 6%;
     background-image: url(images/seat.jpeg);
-    position: relative
+    position: relative;
+    width: 710px;
 }
 body{
     margin: 0;
@@ -25,42 +31,68 @@ body{
 }
 #end{
     text-align: center;
+    width: 710px;
 }
 #contacts{
     background-image: url(images/map.jpeg);
     position: relative;
     text-align: left;
     color: black;
+    width: 710px;
 }
 #images{
     display: flex;
-    gap: 1%;
+    gap: 0.5%;
+    width: 710px;
+}
+#client{
+
+}
+#phn{
+    display: flex;
+    gap:10%;
+    width: 710px;
+}
+#cup{
+    display: flex;
+    width: 710px;
 }
 #pillow{
     display: flex;
+    gap: 2%;
+    width: 710px;
 }
 #hand{
     display: flex;
     gap: 4%;
+    width: 710px;
+}
+#button{
+width: 710px;
 }
 #bed{
     display: flex;
-    gap: 4%;
+    gap: 3%;
+    width: 710px;
 }
-#button{
-width: 800px;
+#ppp{
+    display: flex;
+    gap: 3%;
+    width: 710px;
 }
 
-@media only screen and (max-width: 844px) and (min-width:400) {
+@media only screen and (max-width: 720px) and (min-width:540) {
     body {
       background-color: whitesmoke;
       margin: 100%;
+      display: block;
     }
-    #head{
-        text-align: center;
-        background-color: green;
+    #footer{
+        display: block;
+        gap: 2%;
+        width: 200pxpx;
         color: white;
-        width: 600px;
+    }
+    
     }
 
-  }
