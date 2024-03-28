@@ -1,0 +1,66 @@
+#footer{
+    display: flex;
+    gap: 2%;
+    border: 3px solid black;
+    background-color: black;
+    width: 700px;
+    color: white;
+}
+#head{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#header{
+    display: flex;
+    gap: 6%;
+    background-image: url(images/seat.jpeg);
+    position: relative
+}
+body{
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+#end{
+    text-align: center;
+}
+#contacts{
+    background-image: url(images/map.jpeg);
+    position: relative;
+    text-align: left;
+    color: black;
+}
+#images{
+    display: flex;
+    gap: 1%;
+}
+#pillow{
+    display: flex;
+}
+#hand{
+    display: flex;
+    gap: 4%;
+}
+#bed{
+    display: flex;
+    gap: 4%;
+}
+#button{
+width: 800px;
+}
+
+@media only screen and (max-width: 844px) and (min-width:400) {
+    body {
+      background-color: whitesmoke;
+      margin: 100%;
+    }
+    #head{
+        text-align: center;
+        background-color: green;
+        color: white;
+        width: 600px;
+    }
+
+  }
